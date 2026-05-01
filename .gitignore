@@ -1,0 +1,12 @@
+handoff/
+manual-sheets/
+
+# Godot cache and generated files
+**/.godot/
+**/*.import
+**/export_presets.cfg
+**/data/memory.db
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini

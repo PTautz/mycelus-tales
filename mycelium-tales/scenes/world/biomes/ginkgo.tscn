@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ginkgo_scene"]
+
+[node name="Ginkgo" type="Node2D"]
+
+[node name="Ground" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 320, 0, 320, 180, 0, 180)
+color = Color(0.117647, 0.227451, 0.541176, 1)

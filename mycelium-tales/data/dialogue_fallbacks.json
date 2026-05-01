@@ -1,0 +1,20 @@
+{
+  "ancien": {
+    "neutro": "A rede guarda o que voce ainda nao sabe que perguntou.",
+    "curiosidade": "Perguntar e o primeiro passo. Ouvir, o segundo.",
+    "ceticismo": "A duvida tambem e um tipo de memoria.",
+    "empatia": "Cada dor deixa um no na rede. Com o tempo, aprendemos a reconhece-los."
+  },
+  "merc": {
+    "neutro": "Tudo tem preco. Nem todo preco e pago em esporos.",
+    "curiosidade": "Informacao custa mais que qualquer moeda. Pague com atencao.",
+    "ceticismo": "Ceticismo e saudavel. Ate o momento em que te custa uma oportunidade.",
+    "empatia": "Nao faco desconto. Mas posso fingir que faco."
+  },
+  "snail": {
+    "neutro": "...",
+    "curiosidade": "Quatro olhos. Nenhuma resposta.",
+    "ceticismo": "O silencio concorda.",
+    "empatia": "Os olhos vermelhos piscam uma vez."
+  }
+}

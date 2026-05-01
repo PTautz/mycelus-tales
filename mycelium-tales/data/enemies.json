@@ -1,0 +1,24 @@
+{
+  "corrupcao_radicular": {
+    "id": "corrupcao_radicular",
+    "name": "Corrupcao Radicular",
+    "species": "Putrefactio radix var. profunda",
+    "hp": 220,
+    "hp_max": 220,
+    "attack_min": 6,
+    "attack_max": 14,
+    "threat": "ALTA",
+    "sprite": "res://assets/sprites/enemies/corrupcao_radicular.png"
+  },
+  "predador_liquen": {
+    "id": "predador_liquen",
+    "name": "Predador Liquen",
+    "species": "Lichen predatorius",
+    "hp": 80,
+    "hp_max": 80,
+    "attack_min": 4,
+    "attack_max": 9,
+    "threat": "MEDIA",
+    "sprite": "res://assets/sprites/enemies/predador_liquen.png"
+  }
+}

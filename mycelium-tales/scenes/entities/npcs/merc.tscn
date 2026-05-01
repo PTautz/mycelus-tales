@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://merc_scene"]
+
+[ext_resource type="PackedScene" path="res://scenes/entities/npcs/ancien.tscn" id="1_base"]
+
+[node name="Merc" instance=ExtResource("1_base")]
+npc_id = "merc"

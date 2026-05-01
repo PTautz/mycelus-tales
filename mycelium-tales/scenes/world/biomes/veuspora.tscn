@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=3 uid="uid://veuspora_scene"]
+
+[ext_resource type="PackedScene" path="res://scenes/entities/npcs/ancien.tscn" id="1_ancien"]
+[ext_resource type="PackedScene" path="res://scenes/enemies/corrupcao_radicular.tscn" id="2_enemy"]
+
+[sub_resource type="RectangleShape2D" id="1_barrier"]
+size = Vector2(320, 12)
+
+[sub_resource type="RectangleShape2D" id="2_side_barrier"]
+size = Vector2(12, 180)
+
+[node name="Veuspora" type="Node2D"]
+
+[node name="Ground" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 320, 0, 320, 180, 0, 180)
+color = Color(0.0392157, 0.054902, 0.101961, 1)
+
+[node name="GlowTrail" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(26, 136, 88, 100, 146, 110, 210, 84, 286, 104, 264, 146, 188, 160, 94, 154)
+color = Color(0, 0.960784, 0.831373, 0.2)
+
+[node name="CanopyA" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(10, 20, 84, 18, 96, 64, 24, 74)
+color = Color(0.290196, 0.352941, 0.121569, 1)
+
+[node name="CanopyB" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(228, 12, 304, 20, 294, 66, 212, 58)
+color = Color(0.290196, 0.352941, 0.121569, 1)
+
+[node name="Ancien" parent="." instance=ExtResource("1_ancien")]
+position = Vector2(156, 72)
+
+[node name="Corrupcao" parent="." instance=ExtResource("2_enemy")]
+position = Vector2(244, 126)
+
+[node name="TopWall" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TopWall"]
+shape = SubResource("1_barrier")
+position = Vector2(160, 6)
+
+[node name="BottomWall" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomWall"]
+shape = SubResource("1_barrier")
+position = Vector2(160, 174)
+
+[node name="LeftWall" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall"]
+shape = SubResource("2_side_barrier")
+position = Vector2(6, 90)
+
+[node name="RightWall" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall"]
+shape = SubResource("2_side_barrier")
+position = Vector2(314, 90)

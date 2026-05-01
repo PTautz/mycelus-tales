@@ -1,0 +1,37 @@
+{
+  "veuspora": {
+    "id": "veuspora",
+    "name": "Manto de Veuspora",
+    "mode": "top-down",
+    "palette": ["#0a0e1a", "#4a5a1f", "#d4a017", "#c88b7a", "#ff3e8a", "#00f5d4", "#e0e1dd"],
+    "description": "Onde a luz desiste e os esporos tomam seu lugar."
+  },
+  "feira": {
+    "id": "feira",
+    "name": "Feira-das-Hifas",
+    "mode": "isometric",
+    "palette": ["#5ab4d9", "#6ab04c", "#3d7031", "#f0932b", "#eb4d4b", "#8b5a2b", "#f4ebd0"],
+    "description": "Filamentos vivos entrelacam tendas, fornos e canteiros."
+  },
+  "ginkgo": {
+    "id": "ginkgo",
+    "name": "Patio do Ginkgo Silente",
+    "mode": "top-down",
+    "palette": ["#1e3a8a", "#f4a261", "#264653", "#f8edeb", "#c1292e"],
+    "description": "Um ginkgo ancestral em patio de pedra."
+  },
+  "humido": {
+    "id": "humido",
+    "name": "Humido de Lumembrana",
+    "mode": "top-down",
+    "palette": ["#063a2a", "#0e7f58", "#2dd4bf", "#d946a8", "#eab308"],
+    "description": "Bromelias translucidas funcionam como lanternas coletivas."
+  },
+  "clareira": {
+    "id": "clareira",
+    "name": "Clareira do Orvalho Ambar",
+    "mode": "top-down",
+    "palette": ["#a3d14a", "#f6d34a", "#bfe6f5", "#f9b5c5", "#5f8a3a"],
+    "description": "O unico lugar onde o protagonista consegue dormir sem sonhar com raizes."
+  }
+}

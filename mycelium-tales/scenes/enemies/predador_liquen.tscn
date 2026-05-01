@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://liquen_scene"]
+
+[ext_resource type="PackedScene" path="res://scenes/enemies/corrupcao_radicular.tscn" id="1_base"]
+
+[node name="PredadorLiquen" instance=ExtResource("1_base")]
+enemy_id = "predador_liquen"

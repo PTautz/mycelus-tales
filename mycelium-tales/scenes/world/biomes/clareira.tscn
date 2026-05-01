@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://clareira_scene"]
+
+[node name="Clareira" type="Node2D"]
+
+[node name="Ground" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 320, 0, 320, 180, 0, 180)
+color = Color(0.639216, 0.819608, 0.290196, 1)

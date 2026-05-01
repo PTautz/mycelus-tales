@@ -1,0 +1,81 @@
+[gd_scene load_steps=3 format=3 uid="uid://combat_scene"]
+
+[ext_resource type="Script" path="res://scripts/combat/combat_hud.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/combat/combat_manager.gd" id="2_manager"]
+
+[node name="CombatHUD" type="CanvasLayer"]
+script = ExtResource("1_script")
+
+[node name="CombatManager" type="Node" parent="."]
+script = ExtResource("2_manager")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Control"]
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 308.0
+offset_bottom = 168.0
+
+[node name="Margin" type="MarginContainer" parent="Control/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Control/Panel/Margin"]
+layout_mode = 2
+
+[node name="Header" type="HBoxContainer" parent="Control/Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="EnemyName" type="Label" parent="Control/Panel/Margin/VBox/Header"]
+text = "Corrupcao Radicular"
+
+[node name="Stats" type="HBoxContainer" parent="Control/Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="HP" type="Label" parent="Control/Panel/Margin/VBox/Stats"]
+text = "HP 70/70"
+
+[node name="ESP" type="Label" parent="Control/Panel/Margin/VBox/Stats"]
+text = "ESP 60/60"
+
+[node name="EnemyHP" type="Label" parent="Control/Panel/Margin/VBox/Stats"]
+text = "INIMIGO 220/220"
+
+[node name="Log" type="RichTextLabel" parent="Control/Panel/Margin/VBox"]
+custom_minimum_size = Vector2(0, 72)
+fit_content = true
+scroll_following = true
+
+[node name="Actions" type="HBoxContainer" parent="Control/Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="Attack" type="Button" parent="Control/Panel/Margin/VBox/Actions"]
+text = "ATACAR"
+size_flags_horizontal = 3
+
+[node name="Spore" type="Button" parent="Control/Panel/Margin/VBox/Actions"]
+text = "ESPORULAR"
+size_flags_horizontal = 3
+
+[node name="Symbiosis" type="Button" parent="Control/Panel/Margin/VBox/Actions"]
+text = "SIMBIOSE"
+size_flags_horizontal = 3
+
+[node name="Flee" type="Button" parent="Control/Panel/Margin/VBox/Actions"]
+text = "FUGIR"
+size_flags_horizontal = 3

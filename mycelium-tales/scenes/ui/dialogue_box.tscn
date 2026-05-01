@@ -1,0 +1,64 @@
+[gd_scene load_steps=2 format=3 uid="uid://dialogue_scene"]
+
+[ext_resource type="Script" path="res://scripts/dialogue/dialogue_box.gd" id="1_script"]
+
+[node name="DialogueBox" type="CanvasLayer"]
+script = ExtResource("1_script")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Control"]
+custom_minimum_size = Vector2(280, 88)
+offset_left = 20.0
+offset_top = 84.0
+offset_right = 300.0
+offset_bottom = 172.0
+
+[node name="Margin" type="MarginContainer" parent="Control/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Control/Panel/Margin"]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="Control/Panel/Margin/VBox"]
+text = "ANCIEN"
+
+[node name="LineLabel" type="RichTextLabel" parent="Control/Panel/Margin/VBox"]
+custom_minimum_size = Vector2(0, 34)
+bbcode_enabled = false
+scroll_active = false
+fit_content = true
+text = ""
+
+[node name="Choices" type="HBoxContainer" parent="Control/Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="ChoiceA" type="Button" parent="Control/Panel/Margin/VBox/Choices"]
+text = "Perguntar"
+size_flags_horizontal = 3
+
+[node name="ChoiceB" type="Button" parent="Control/Panel/Margin/VBox/Choices"]
+text = "Duvidar"
+size_flags_horizontal = 3
+
+[node name="ChoiceC" type="Button" parent="Control/Panel/Margin/VBox/Choices"]
+text = "Abrir"
+size_flags_horizontal = 3
+
+[node name="CloseButton" type="Button" parent="Control/Panel/Margin/VBox"]
+text = "Fechar"

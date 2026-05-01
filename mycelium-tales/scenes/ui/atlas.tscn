@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://atlas_scene"]
+
+[node name="Atlas" type="Control"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 250.0
+offset_bottom = 54.0
+text = "Atlas dos 5 biomas em construcao"
