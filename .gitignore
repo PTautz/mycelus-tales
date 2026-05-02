@@ -2,6 +2,10 @@ handoff/
 manual-sheets/
 
 # Godot cache and generated files
+.godot/
+*.import
+export_presets.cfg
+data/memory.db
 **/.godot/
 **/*.import
 **/export_presets.cfg
