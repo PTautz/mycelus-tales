@@ -42,7 +42,7 @@ func request_reply(npc_id: String, player_input: String, tone: String = "neutro"
 [Tom da fala do viajante] %s
 [Viajante diz] %s
 
-Responda em 1-2 frases curtas no tom melancolico-contemplativo do mundo Mycelium Tales.
+Responda em 1-2 frases curtas no tom melancolico-contemplativo do mundo Mycelus Tales.
 Nao mencione que voce e uma IA. Nao use aspas. Portugues brasileiro.""" % [
         personality.get("base_prompt", ""),
         mem_text,

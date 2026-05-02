@@ -7,7 +7,7 @@
 3. Clique em `Import`.
 4. Escolha o arquivo:
 
-`C:\Users\panto\OneDrive\Documentos\New project\mycelium-tales\project.godot`
+`project.godot`
 
 ## 2. Instalar o addon SQLite
 
@@ -18,7 +18,7 @@ Fluxo sugerido:
 1. Baixe o addon `godot-sqlite`.
 2. Copie a pasta do addon para:
 
-`C:\Users\panto\OneDrive\Documentos\New project\mycelium-tales\addons\`
+`addons/`
 
 3. No Godot, abra `Project > Project Settings > Plugins`.
 4. Ative o plugin.

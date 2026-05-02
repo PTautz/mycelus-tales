@@ -27,11 +27,11 @@ Voce ja tem uma base de arte melhor que os placeholders e sem custo de API. Os a
 
 ## Observacao importante
 
-Apesar do nome `-alpha`, os arquivos ainda aparentam estar com fundo verde solido. Entao o fluxo certo e:
+Considere esses arquivos como base de trabalho. O fluxo ideal agora e:
 
 1. manter os arquivos originais como fonte
-2. remover o fundo verde
-3. limpar no Aseprite
+2. abrir no Aseprite
+3. limpar, recortar e padronizar
 4. exportar sprites finais para `assets/sprites/`
 
 ## Organizacao recomendada
@@ -81,13 +81,12 @@ Escolha com base em:
 ## Pipeline recomendado
 
 1. copie os sheets para `assets/source-sheets/`
-2. remova o fundo verde
-3. abra no Aseprite
-4. converta para paleta indexada
-5. reduza para no maximo 8 cores por sprite ou cena
-6. recorte os 4 angulos principais
-7. exporte o sprite final
-8. importe no Godot com `Filter = Nearest` e `Mipmaps = Off`
+2. abra no Aseprite
+3. converta para paleta indexada
+4. reduza para no maximo 8 cores por sprite ou cena
+5. recorte os 4 angulos principais
+6. exporte o sprite final
+7. importe no Godot com `Filter = Nearest` e `Mipmaps = Off`
 
 ## Prioridade ideal para o vertical slice
 
