@@ -1,6 +1,10 @@
 # Como usar os sheets manuais
 
-Voce ja tem uma base de arte melhor que os placeholders e sem custo de API. Os arquivos de trabalho podem ficar fora do repositorio e ser copiados para:
+Voce ja tem uma base de arte melhor que os placeholders. Os arquivos brutos e referencias locais podem ficar em:
+
+`references/manual-sheets/`
+
+e o material que entrar no fluxo do jogo deve ser copiado para:
 
 `assets/source-sheets/`
 
@@ -35,6 +39,11 @@ Considere esses arquivos como base de trabalho. O fluxo ideal agora e:
 4. exportar sprites finais para `assets/sprites/`
 
 ## Organizacao recomendada
+
+### Referencia local
+
+- brutos e backups: `references/manual-sheets/`
+- handoff e material externo: `references/handoff/`
 
 ### Fontes originais
 

@@ -69,12 +69,14 @@ Ameaca principal do slice inicial, pensada como distorcao organica da propria re
 
 ## Estrutura
 
+- `project.godot`: ponto de entrada do projeto
 - `scenes/`: mundo, entidades, inimigos e UI
 - `scripts/`: gameplay, dialogo, combate e integracoes
 - `data/`: biomas, NPCs, inimigos e fallbacks
-- `assets/source-sheets/`: referencias, estudos e folhas de trabalho
+- `assets/source-sheets/`: estudos, variacoes e folhas de trabalho
 - `assets/sprites/`: sprites finais usados no jogo
-- `docs/`: notas de producao e guias do projeto
+- `docs/`: guias curtos de producao e uso
+- `references/`: material local de apoio, handoff e arquivos brutos fora do versionamento
 
 ## Fluxo de arte
 
@@ -82,6 +84,7 @@ A producao visual foi organizada para manter o projeto simples e manual:
 
 - `assets/source-sheets/` guarda referencia, variacoes e material de trabalho
 - `assets/sprites/` guarda apenas o que deve entrar no jogo
+- `references/` pode guardar handoff, exportacoes antigas e folhas brutas sem poluir a raiz do projeto
 
 O fluxo recomendado e limpar, padronizar e exportar os sprites no Aseprite antes da importacao no Godot.
 
