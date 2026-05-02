@@ -1,8 +1,8 @@
 # Como usar os sheets manuais
 
-Voce ja tem uma base de arte melhor que os placeholders e sem custo de API. Os arquivos extraidos estao em:
+Voce ja tem uma base de arte melhor que os placeholders e sem custo de API. Os arquivos de trabalho podem ficar fora do repositorio e ser copiados para:
 
-`C:\Users\panto\OneDrive\Documentos\New project\manual-sheets`
+`assets/source-sheets/`
 
 ## O que veio no pacote
 
