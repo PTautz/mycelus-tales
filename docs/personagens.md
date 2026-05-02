@@ -1,6 +1,6 @@
 # Personagens
 
-Guia de personagens de `Mycelus Tales`.
+Guia de personagens de `Mycelium Tales`.
 
 Este documento funciona como referencia de direcao criativa para um projeto indie em construcao. A ideia nao e travar tudo como canon definitivo agora, mas registrar identidade visual, funcao narrativa e tom de cada habitante importante da rede.
 

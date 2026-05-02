@@ -1,4 +1,4 @@
-# Mycelus Tales
+# Mycelium Tales
 
 Um experimento indie em Godot sobre memoria, fungos conscientes e mundos pequenos cheios de atmosfera.
 
@@ -6,7 +6,7 @@ Um experimento indie em Godot sobre memoria, fungos conscientes e mundos pequeno
 
 ## Sobre
 
-`Mycelus Tales` e um projeto experimental com fins educacionais, criado para estudar o processo de desenvolvimento de um jogo autoral do conceito ao prototipo jogavel.
+`Mycelium Tales` e um projeto experimental com fins educacionais, criado para estudar o processo de desenvolvimento de um jogo autoral do conceito ao prototipo jogavel.
 
 O objetivo nao e apenas montar um vertical slice, mas aprender na pratica:
 
