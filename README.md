@@ -2,7 +2,7 @@
 
 Um experimento indie em Godot sobre memoria, fungos conscientes e mundos pequenos cheios de atmosfera.
 
-![Protagonista](assets/sprites/characters/prota-sheet.png)
+![Capa do projeto](docs/images/cover.png)
 
 ## Sobre
 
